@@ -1,7 +1,28 @@
-# Django #
+# Log files #
 *.log
-*.pot
+
+# Compiled Python files #
 *.pyc
-__pycache__
+*.pyo
+*.pyd
+__pycache__/
+
+# Translations #
+*.pot
+
+# SQLite database #
 db.sqlite3
-media
+
+# Uploaded media #
+media/
+
+# Django static files (if collected locally) #
+staticfiles/
+
+# Virtual environment #
+venv/
+.env
+
+# IDE files #
+*.idea/
+*.vscode/
